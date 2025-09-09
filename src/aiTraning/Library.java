@@ -46,23 +46,4 @@ public class Library {
         return null;
     }
 
-    public static void main(String[] args) {
-        Book book1 = new Book("Um velho velhaco e seu neto bundao", "nao sei", "duzentos");
-
-        Library library = new Library(book1);
-
-        Book book;
-        library.addBook(book = new Book("A insonia do vampiro", "nao sei", "trezentos"));
-
-        library.listBooks();
-        Book booktofind = library.findBookByTitle("A insonia do vampiro");
-
-        if (booktofind != null) {
-            System.out.println("Book found: " + booktofind.toString());
-
-        } else {
-            System.out.println("Book not found");
-        }
-
-    }
 }

@@ -30,8 +30,8 @@ public class Book {
     }
 
     public String toString() {
-
-        return this.title + " " + this.author + " " + this.isbn;
+        return "Title: '" + this.title + "', Author: '" + this.author + "', ISBN: '" + this.isbn + "'";
     }
-
 }
+
+
