@@ -29,18 +29,9 @@ public class Book {
         return this.isbn;
     }
 
-    public String displayBookInfo() {
+    public String toString() {
 
         return this.title + " " + this.author + " " + this.isbn;
     }
 
-    public static void main(String[] args) {
-
-        Book book1 = new Book("Um velho velhaco e seu neto bundao", "nao sei", "duzentos");
-
-        Book book2 = new Book("A insonia do vampiro", "nao sei", "trezentos");
-        System.out.println(book1.displayBookInfo());
-        System.out.println(book2.displayBookInfo());
-
-    }
 }
